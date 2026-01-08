@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BACKGROUND */
+body {
+    background: linear-gradient(to right, #f6c1d1, #1e1b29);
+}
+
+/* NAVBAR */
+.navbar {
+    background: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo span {
+     font-family: 'Cinzel', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a1b9a;
+}
+
+/* NAV LINKS */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav select {
+    padding: 5px;
+}
+
+/* MAIN CONTAINER */
+.container {
+    padding: 40px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* TEXT */
+.card-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.card-text p {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+.card-text button {
+    background: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* IMAGE */
+.card-image img {
+    width: 280px;
+    border-radius: 8px;
+}
+
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: none;
+    flex-direction: column;
+    width: 120px;
+}
+
+.dropdown-menu a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    background: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+/* ABOUT CARD */
+.about-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.footer {
+    background: linear-gradient(to right, #0f0c29, #302b63);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 30px 30px 0 0;
+}
+
+.footer h1 {
+    margin-bottom: 20px;
+}
+
+.footer span {
+    color: #00bfff;
+}
+
+.footer .address {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+
+.social-icons {
+    margin-top: 25px;
+}
+
+.social-icons img {
+    width: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+
+}
+
+
+.dropdown span {
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-links a,
+.dropdown span {
+    font-weight: 700;  
+}
